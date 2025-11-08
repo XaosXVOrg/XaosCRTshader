@@ -1,13 +1,18 @@
 # Xaos CRT shader
 \
-This a GLSL shader to be applied to get simulated CRT TV effects on the Dolphin emulator. The shader applies as cheaply as possible a set of layered effects to the rendered image:
+This a GLSL shader to be applied to get simulated CRT TV effects on the Dolphin emulator. This is a work in progress and current version is v0.1.  
+
+  
+## Characteristics
+The shader applies as cheaply as possible a set of layered effects to the rendered image:
 - Lens like distortion: to simulate curvature on CRT TVs
 - Bloom: To simulate the color bleeding that CRT get specially on bright areas of the image
 - Increased Saturation and Contrast: To try to emulate the perceptual color ranges in CRT TVs
 - Vignette: Adds to the CRT effect
 - Pixels and Scanlines: Main CRT features
-\
-\
+
+
+## Examples
 \
 **Example screenshot of the postprocess shader being applied in Dolphin 2509 in The Legend of Zelda Twilight Princess** <img width="1966" height="1439" alt="Screenshot 2025-11-08 204750" src="https://github.com/user-attachments/assets/a7837403-166e-42a3-9326-af12b9b67c98" />
 \
